@@ -34,7 +34,7 @@ random_index = random.choice(kamen_skare_papir)
 
 if choice == 0:
     print(rock)
-
+    print("Protivnik je izabrao:")
     if random_index == "Rock":
         print(rock)
         print("Izjednačeno!")
@@ -60,7 +60,7 @@ elif choice == 1:
         print("Izgubio si!")
 elif choice == 2:
     print(scissors)
-
+    print("Protivnik je izabrao:")
     if random_index == "Rock":
         print(rock)
         print("Izgubio si!")
